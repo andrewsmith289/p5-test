@@ -1,0 +1,23 @@
+html,
+body {
+    height: 100%;
+}
+
+body {   
+    margin: 0;
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+    /* background: url('./images/stars.png'); */
+    background-size: cover;
+    overflow: hidden;
+}
+
+img {
+    height: 128px;
+    width: 128px;
+    position: fixed;
+    border-radius: 50%;
+    border: 3px solid #333;
+    box-shadow: 1px 2px 8rem #00bcd4;
+}
